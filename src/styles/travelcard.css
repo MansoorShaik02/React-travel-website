@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+.travelcard {
+  
+    width: 280px;
+    height: 280px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    margin: 30px;
+ 
+}
+.fittyname {
+ 
+    font-weight: bold;
+    font-family: 'Libre Franklin', sans-serif;
+    color: white;
+   backdrop-filter:  blur(10px) ; 
+   width: 100%;
+   align-self:flex-end;
+}
+.travelcard p {
+  
+
+    font-weight: bold;
+    font-family: 'Libre Franklin', sans-serif;
+    color: white;
+   backdrop-filter:  blur(10px) ; 
+   width: 100%;
+   align-self:flex-end;
+}
+
+.travelcard {
+    align-items: flex-end;
+    flex-direction: row;
+    display: flex;
+}
+
+@media (max-width:426px) {  
+    .travelcard {
+        width: 200px;
+        height: 200px;
+    }
+
+}

@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+.coverhome {
+ width: 100%;
+ 
+ color: aliceblue;
+ padding-top: 20px;
+ height: calc(100vh - 80px);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.Caption p{
+    font-size: 60px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.buttonsdis {
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    justify-content: center;
+    align-items: center;
+}
+.planjourney {
+    border-style: none;
+    height: 27px;
+    font-size: 23px;
+    background-color:rgb(152, 181, 102);
+    color: rgb(12, 12, 12);
+    border-style: solid rgb(152, 181, 102);
+
+}
+.planjourney:hover {
+    cursor: pointer;
+}
+.checkrec {
+    border-style: none;
+    height: 27px;
+    font-size: 23px;
+    background-color: transparent; 
+    color: rgb(152, 181, 102);
+}
+.checkrec:hover {
+    cursor: pointer;
+}
+
+@media (max-width:426px) { 
+    .coverhome {
+        flex-direction: column;
+        height: calc(100vh - 80px);
+    }
+    .Caption {
+        display: flex;
+        flex-direction:column;
+    }
+    .buttonsdis {
+        flex-direction: column;
+
+    }
+    .Caption p{
+        font-size: 50px;
+     
+    } 
+
+}
+
