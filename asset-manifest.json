@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/React-travel-website/static/css/main.690b8016.css",
+    "main.js": "/React-travel-website/static/js/main.6b9323d6.js",
+    "static/media/westfjordsIceland.jpg": "/React-travel-website/static/media/westfjordsIceland.cb7acb314953c6782909.jpg",
+    "static/media/Rome.jpg": "/React-travel-website/static/media/Rome.4eaa71697bfe2d3ec6ba.jpg",
+    "static/media/LighthouseAustralia.jpg": "/React-travel-website/static/media/LighthouseAustralia.a9e88bb54c66d5aa15eb.jpg",
+    "static/media/timessquarehd.jpg": "/React-travel-website/static/media/timessquarehd.1a057f17dbf4e649364a.jpg",
+    "static/media/jake-weirick-Zu6wtAvLWgE-unsplash.jpg": "/React-travel-website/static/media/jake-weirick-Zu6wtAvLWgE-unsplash.2321e3680cd3baea16de.jpg",
+    "index.html": "/React-travel-website/index.html",
+    "main.690b8016.css.map": "/React-travel-website/static/css/main.690b8016.css.map",
+    "main.6b9323d6.js.map": "/React-travel-website/static/js/main.6b9323d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.690b8016.css",
+    "static/js/main.6b9323d6.js"
+  ]
+}
