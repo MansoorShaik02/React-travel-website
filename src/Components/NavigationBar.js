@@ -26,7 +26,7 @@ function NavigationBar() {
 
     return (
 
-        <div div div div className='bigNav' id={menuiconapp ? "open" : "close"} >
+        <div className='bigNav' id={menuiconapp ? "open" : "close"} >
             <div className='menuicontoggle'><button className='menubuttontoggle' onClick={() => {
                 setmenuiconapp((prev) => (!prev))
             }} >

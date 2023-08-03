@@ -19,7 +19,7 @@ function Footer() {
 
             <div className='topdestinations'><h4>Top Destinations</h4>
                 {Footerdes.map((item) => {
-                    return <p>{item.nameloc}</p>
+                    return <p key={item.nameloc}>{item.nameloc}</p>
 
                 }
 

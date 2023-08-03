@@ -9,7 +9,7 @@ function Traveldestinations() {
     return (
         <div className="bigtravel">
             {Travelhelper.map((item) => {
-                return <Travelcard name={item.name} image={item.image}></Travelcard>
+                return <Travelcard name={item.name} key="uniqueID" image={item.image}></Travelcard>
             })}
             {/*  <Travelcard name="hello" image={timessquarehd}></Travelcard> */}
         </div>
